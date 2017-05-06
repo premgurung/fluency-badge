@@ -15,3 +15,5 @@ service 'apache' do
 	action [:start,:enable]
 
 end
+
+include_recipe 'apache::websites'
